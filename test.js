@@ -14,11 +14,8 @@ function minWindowSubstring(strArr) {
 // K is smaller than N
 
 // check for versions of K within N
-for(let i = 0; i < K.length; i++){
-    if(N.indexOf(K[i]) !== -1){
-
-    }
-  }
+  let len = k.length;
+  let substrng = K(0,len);
 }
 
 minWindowSubstring();
