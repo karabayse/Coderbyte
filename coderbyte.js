@@ -5,14 +5,11 @@ of some characters,
 and your goal is to determine the smallest substring of N that contains all the
 characters in K.
 
-For example: if strArr is ["aaabaaddae", "aed"] t
-hen the smallest substring of N that contains the characters a, e, and d is "dae"
+For example: if strArr is ["aaabaaddae", "aed"]
+then the smallest substring of N that contains the characters a, e, and d is "dae"
 located at the end of the string.
 */
 function minWindowSubstring(strArr) {
-
-
-  return strArr;
 
 }
 
