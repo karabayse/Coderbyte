@@ -1,4 +1,5 @@
 ## Coderbyte
 
 * Min Window Substring
-* First Reverse 
+* First Reverse
+* First Factorial 
