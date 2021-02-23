@@ -1,14 +1,10 @@
 /*
 Return the string in reversed order.
-If the input string is "Hello World and Coders" then your program should return 
+If the input string is "Hello World and Coders" then your program should return
 the string sredoC dna dlroW olleH.
 */
 function FirstReverse(str) {
-
-  // code goes here
-  return str;
-
+  return str.split("").reverse().join("");
 }
 
-// keep this function call here
-console.log(FirstReverse(readline()));
+FirstReverse("Reverse this string");
