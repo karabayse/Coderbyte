@@ -2,4 +2,5 @@
 
 * Min Window Substring
 * First Reverse
-* First Factorial 
+* First Factorial
+* Longest Word 

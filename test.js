@@ -1,17 +1,21 @@
 /*
-Take the num parameter being passed and return the factorial of it.
-For example:
-if num = 4, then your program should return (4 * 3 * 2 * 1) = 24.
-For the test cases, the range will be between 1 and 18 and the input will always be an integer.
+Take the sen parameter being passed and return the largest word in the string.
+If there are two or more words that are the same length, return the first word
+from the string with that length.
+Ignore punctuation and assume sen will not be empty.
+Examples
+Input: "fun&!! time"
+Output: time
 */
-function FirstFactorial(num) {
-  if (num < 0)
-        return -1;
-  else if (num == 0)
-      return 1;
-  else {
-      return (num * FirstFactorial(num - 1));
+function LongestWord(sen) {
+  var strSplit = sen.split(' ');
+  var longestWord = 0;
+  for(var i = 0; i < strSplit.length; i++){
+    if(strSplit[i].length > longestWord){
+	     longestWord = strSplit[i].length;
+     }
   }
+  return longestWord;
 }
 
-FirstFactorial(5);
+LongestWord("Longest is the longest word in this string");
