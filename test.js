@@ -4,7 +4,7 @@ function LongestWord(sen) {
 
   var longestWord;
   for(var i = 0; i < strSplit.length; i++){
-        if (i.length > i.length -1) {
+        if ([i].length > [i].length -1) {
           var longestWord = i;
         }
      }
