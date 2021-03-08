@@ -1,9 +1,8 @@
-function LongestWord(sen) {
-  var arr = sen.split(' ');
-  var longest = arr.reduce(function(a, b) {
-    return a.length > b.length ? a : b
-  }, '');
-console.log(longest);
+/*
+Determining if a string follows a particular pattern.
+*/
+function challengeInfo {
+
 }
 
-LongestWord("Longest is the longest word in this string");
+challengeInfo();

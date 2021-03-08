@@ -3,4 +3,5 @@
 * Min Window Substring
 * First Reverse
 * First Factorial
-* Longest Word 
+* Longest Word
+* Challenge Information 
