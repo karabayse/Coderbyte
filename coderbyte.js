@@ -88,13 +88,3 @@ console.log(longest);
 }
 
 LongestWord("Longest is the longest word in this string");
-
-
-/*
-Determining if a string follows a particular pattern.
-*/
-function challengeInfo {
-
-}
-
-challengeInfo();
