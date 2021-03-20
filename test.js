@@ -17,7 +17,7 @@ Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
 Output: 1,9,10
 */
 function FindIntersection(strArr) {
-  var newArr = strArr[0].concat(strArr[1]);
+  var newArr = strArr[0].concat(",", " ", strArr[1]);
   console.log(newArr);
 }
 
