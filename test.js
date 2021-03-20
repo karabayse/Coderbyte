@@ -21,4 +21,4 @@ function FindIntersection(strArr) {
   console.log(newArr);
 }
 
-FindIntersection();
+FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]);
