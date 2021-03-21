@@ -18,7 +18,15 @@ Output: 1,9,10
 */
 function FindIntersection(strArr) {
   var newArr = strArr[0].concat(",", " ", strArr[1]);
-  console.log(newArr);
+  var sortArr = newArr.sort();
+
+  let intersection = [];
+  for (let i = 0; i < sortArr.length - 1; i++) {
+    if (sortArr[i + 1] == sortArr[i]) {
+      intersection.push(sortArr[i]);
+    }
+  }
+  console.log(intersection);
 }
 
 FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]);
