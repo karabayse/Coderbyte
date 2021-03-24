@@ -20,11 +20,12 @@ function FindIntersection(strArr) {
   var newArr = [];
 
   var newStr = strArr[0].concat(",", " ", strArr[1]);
+  console.log(newStr); // 1, 3, 4, 7, 13, 1, 2, 4, 13, 15
 
   newArr.push(newStr);
-  console.log(newArr); // ["1, 3, 4, 7, 13, 1, 2, 4, 13, 15"] 
+  console.log(newArr); // ["1, 3, 4, 7, 13, 1, 2, 4, 13, 15"]
 
-  var sortArr = newArr.prototype.sort(); // sort is an array method
+  var sortArr = newArr.split().prototype.sort(); // sort is an array method
   console.log(sortArr);
 
   let intersection = [];
