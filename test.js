@@ -22,9 +22,9 @@ function FindIntersection(strArr) {
   var newStr = strArr[0].concat(",", " ", strArr[1]);
 
   newArr.push(newStr);
-  console.log(newArr);
+  console.log(newArr); // ["1, 3, 4, 7, 13, 1, 2, 4, 13, 15"] 
 
-  var sortArr = newArr.prototype.sort();
+  var sortArr = newArr.prototype.sort(); // sort is an array method
   console.log(sortArr);
 
   let intersection = [];
