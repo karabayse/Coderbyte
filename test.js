@@ -24,7 +24,7 @@ function FindIntersection(strArr) {
   var arr = newStr.split(',');
   console.log(arr); // ["1", " 3", " 4", " 7", " 13", " 1", " 2", " 4", " 13", " 15"]
 
-  var sortArr = newArr.prototype.sort(); // sort is an array method
+  var sortArr = arr.sort(); // sort is an array method
   console.log(sortArr);
 
   let intersection = [];
