@@ -25,7 +25,7 @@ function FindIntersection(strArr) {
   console.log(arr); // ["1", " 3", " 4", " 7", " 13", " 1", " 2", " 4", " 13", " 15"]
 
   var sortArr = arr.sort(); // sort is an array method
-  console.log(sortArr);
+  console.log(sortArr);  // [" 1", " 13", " 13", " 15", " 2", " 3", " 4", " 4", " 7", "1"]
 
   let intersection = [];
   for (let i = 0; i < sortArr.length - 1; i++) {
@@ -33,7 +33,7 @@ function FindIntersection(strArr) {
       intersection.push(sortArr[i]);
     }
   }
-  console.log(intersection);
+  console.log(intersection); // [" 13", " 4"]
 }
 
 FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]);
