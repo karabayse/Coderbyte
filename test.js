@@ -24,11 +24,15 @@ function FindIntersection(strArr) {
   var arr = newStr.split(',');
   console.log(arr); // ["1", " 3", " 4", " 7", " 13", " 1", " 2", " 4", " 13", " 15"]
 
+  const toNumbers = arr => arr.map(Number);
+  console.log(toNumbers);
+  //toNumbers(['1', '2', '3','4']);     // [1, 2, 3, 4]
+
   var sortArr = arr.sort(); // sort is an array method
   console.log(sortArr);  // [" 1", " 13", " 13", " 15", " 2", " 3", " 4", " 4", " 7", "1"]
 
   let intersection = [];
-  for (let i = 0; i < sortArr.length - 1; i++) {
+  for (let i = 0; i <= sortArr.length - 1; i++) {
     if (sortArr[i + 1] == sortArr[i]) {
       intersection.push(sortArr[i]);
     }
