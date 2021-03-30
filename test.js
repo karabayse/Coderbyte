@@ -18,7 +18,7 @@ Output: 1,9,10
 */
 function FindIntersection(strArr) {
 
-  var newStr = strArr[0].concat(",", " ", strArr[1]);
+  var newStr = strArr[0].concat(",", strArr[1]);
   console.log(newStr); // 1, 3, 4, 7, 13, 1, 2, 4, 13, 15
 
   var arr = newStr.split(',');
