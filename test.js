@@ -40,7 +40,10 @@ function FindIntersection(strArr) {
       intersection.push(sortArr[i]);
     }
   }
-  console.log(intersection); // []
+  console.log(intersection); // [" 13", " 4", "1"]
+
+  const interNum = intersection.map((i) => Number(i));
+  console.log(interNum); // [13, 4, 1]
 }
 
 FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]);
