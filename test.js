@@ -17,8 +17,6 @@ Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
 Output: 1,9,10
 */
 function FindIntersection(strArr) {
-  //let arr = [];
-
   var newStr = strArr[0].concat(",", strArr[1]);
   console.log(newStr); // 1, 3, 4, 7, 13,1, 2, 4, 13, 15
 
@@ -27,9 +25,6 @@ function FindIntersection(strArr) {
 
   var arr = newStr.split(',');
   console.log(arr); // ["1", " 3", " 4", " 7", " 13", "1", " 2", " 4", " 13", " 15"]
-
-  //arr.push(newStr);
-  //console.log(arr); // ["1, 3, 4, 7, 13,1, 2, 4, 13, 15"]
 
   var sortArr = arr.sort(); // sort is an array method
   console.log(sortArr);  // ["1, 3, 4, 7, 13,1, 2, 4, 13, 15"]

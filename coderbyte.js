@@ -150,19 +150,17 @@ Input: ["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]
 Output: 1,9,10
 */
 function FindIntersection(strArr) {
-
   var newStr = strArr[0].concat(",", strArr[1]);
-  console.log(newStr); // 1, 3, 4, 7, 13, 1, 2, 4, 13, 15
+  console.log(newStr); // 1, 3, 4, 7, 13,1, 2, 4, 13, 15
+
+  let nums = parseInt(newStr);
+  console.log(nums);
 
   var arr = newStr.split(',');
-  console.log(arr); // ["1", " 3", " 4", " 7", " 13", " 1", " 2", " 4", " 13", " 15"]
-
-  const toNumbers = arr => arr.map(Number);
-  console.log(toNumbers);
-  //toNumbers(['1', '2', '3','4']);     // [1, 2, 3, 4]
+  console.log(arr); // ["1", " 3", " 4", " 7", " 13", "1", " 2", " 4", " 13", " 15"]
 
   var sortArr = arr.sort(); // sort is an array method
-  console.log(sortArr);  // [" 1", " 13", " 13", " 15", " 2", " 3", " 4", " 4", " 7", "1"]
+  console.log(sortArr);  // ["1, 3, 4, 7, 13,1, 2, 4, 13, 15"]
 
   let intersection = [];
   for (let i = 0; i <= sortArr.length - 1; i++) {
@@ -171,6 +169,9 @@ function FindIntersection(strArr) {
     }
   }
   console.log(intersection); // [" 13", " 4", "1"]
+
+  const interNum = intersection.map((i) => Number(i));
+  console.log(interNum); // [13, 4, 1]
 }
 
 FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]);
