@@ -11,6 +11,7 @@ Only "(" and ")" will be used as brackets.
 If str contains no brackets return 1.
 */
 function BracketMatcher(str) {
+// check for an even number of brackets
 
 }
 
