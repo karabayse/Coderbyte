@@ -11,8 +11,10 @@ Only "(" and ")" will be used as brackets.
 If str contains no brackets return 1.
 */
 function BracketMatcher(str) {
-// check for an even number of brackets
-
+  var arr = str.split(" ");
+  for (var i = 0; i < arr.length; i++) {
+    // check for ( and )
+  }
 }
 
 BracketMatcher();
