@@ -11,11 +11,16 @@ Only "(" and ")" will be used as brackets.
 If str contains no brackets, return 1.
 */
 function BracketMatcher(str) {
+  let bracketArr = [];
+
   var arr = str.split(" ");
   console.log(arr);
-  
+
   for (var i = 0; i < arr.length; i++) {
     // check for ( and )
+    if (condition) {
+
+    }
   }
 }
 
