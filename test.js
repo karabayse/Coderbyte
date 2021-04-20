@@ -18,8 +18,8 @@ function BracketMatcher(str) {
 
   for (var i = 0; i < arr.length; i++) {
     // check for ( and )
-    if (condition) {
-
+    if ('('.lenth % 2 == 0 && ')'.length % 2 == 0) {
+      console.log(1);
     }
   }
 }
