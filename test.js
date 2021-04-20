@@ -24,4 +24,4 @@ function BracketMatcher(str) {
   }
 }
 
-BracketMatcher();
+BracketMatcher(coder)(byte));
