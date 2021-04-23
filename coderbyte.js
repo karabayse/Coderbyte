@@ -190,12 +190,19 @@ Only "(" and ")" will be used as brackets.
 If str contains no brackets, return 1.
 */
 function BracketMatcher(str) {
+  let bracketArr = [];
+
   var arr = str.split(" ");
-  console.log(arr);
+  console.log(arr); // ["coder)(byte)"]
 
   for (var i = 0; i < arr.length; i++) {
     // check for ( and )
+    if ('('.lenth % 2 == 0 && ')'.length % 2 == 0) {
+      console.log(1);
+    } else {
+      console.log(0); // 0
+    }
   }
 }
 
-BracketMatcher("coder)(byte)");
+BracketMatcher("coder)(byte)"); // 0
