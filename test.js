@@ -1,29 +1,17 @@
 /*
-The str parameter being passed should return 1 if the brackets are correctly
-matched and each one is accounted for.
-Otherwise return 0.
+determine if the string parameter is a valid username according to the following
+rules:
 
-For example:
-if str is "(hello (world))", then the output should be 1,
-but if str is "((hello (world))" the the output should be 0
-because the brackets do not correctly match up.
-Only "(" and ")" will be used as brackets.
-If str contains no brackets, return 1.
+1. The username is between 4 and 25 characters.
+2. It must start with a letter.
+3. It can only contain letters, numbers, and the underscore character.
+4. It cannot end with an underscore character.
+
+If the username is valid then your program should return the string true,
+otherwise return the string false.
 */
-function BracketMatcher(str) {
-  let bracketArr = [];
+function CodelandUsernameValidation(str) {
 
-  var arr = str.split(" ");
-  console.log(arr); // ["coder)(byte)"]
-
-  for (var i = 0; i < arr.length; i++) {
-    // check for ( and )
-    if ('('.lenth % 2 == 0 && ')'.length % 2 == 0) {
-      console.log(1);
-    } else {
-      console.log(0); // 0
-    }
-  }
 }
 
-BracketMatcher("coder)(byte)"); // 0
+CodelandUsernameValidation("aa_");
