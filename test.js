@@ -1,5 +1,5 @@
 /*
-determine if the string parameter is a valid username according to the following
+Determine if the string parameter is a valid username according to the following
 rules:
 
 1. The username is between 4 and 25 characters.
