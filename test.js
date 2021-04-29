@@ -11,7 +11,9 @@ If the username is valid then your program should return the string true,
 otherwise return the string false.
 */
 function CodelandUsernameValidation(str) {
+  if (str.length >= 4 && str.length <= 25) {
 
+  }
 }
 
 CodelandUsernameValidation("aa_");
