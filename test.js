@@ -11,7 +11,11 @@ If the username is valid then your program should return the string true,
 otherwise return the string false.
 */
 function CodelandUsernameValidation(str) {
-  if (str.length >= 4 && str.length <= 25) {
+  if
+  (str.length >= 4 && str.length <= 25
+  && str.length === 1 && str.match(/[a-z]/i)
+  && // contains letters, numbers, _
+  // cannot end with underscore) {
 
   }
 }
