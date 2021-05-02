@@ -14,7 +14,8 @@ function CodelandUsernameValidation(str) {
   if
   (str.length >= 4 && str.length <= 25
   && str.length === 1 && str.match(/[a-z]/i)
-  && // contains letters, numbers, _
+  && var letterNumber = /^[0-9a-zA-Z]+$/;
+  str.value.match(/^[0-9a-zA-Z]+$/)) // _
   // cannot end with underscore) {
 
   }
