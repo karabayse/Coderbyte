@@ -18,6 +18,8 @@ function CodelandUsernameValidation(str) {
   str.value.match(/^[0-9a-zA-Z]+$/) // _
   && str.slice(-1) != str.endsWith("_")) {
     console.log(true);
+  } else {
+    console.log(false);
   }
 }
 
