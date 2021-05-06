@@ -14,8 +14,7 @@ function CodelandUsernameValidation(str) {
   if
   (str.length >= 4 && str.length <= 25
   && str.length === 1 && str.match(/[a-z]/i)
-  && var letterNumber = /^[0-9a-zA-Z]+$/;
-  str.value.match(/^[0-9a-zA-Z]+$/) // _
+  && str.value.match(/^[0-9a-zA-Z]+$/) // _
   && str.slice(-1) != str.endsWith("_")) {
     console.log(true);
   } else {
@@ -23,4 +22,4 @@ function CodelandUsernameValidation(str) {
   }
 }
 
-CodelandUsernameValidation("aa_");
+CodelandUsernameValidation("u__hello_world123");
