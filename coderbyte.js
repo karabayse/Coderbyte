@@ -221,7 +221,15 @@ If the username is valid then your program should return the string true,
 otherwise return the string false.
 */
 function CodelandUsernameValidation(str) {
-
+  if
+  (str.length >= 4 && str.length <= 25
+  && str.length === 1 && str.match(/[a-z]/i)
+  && str.value.match(/^[0-9a-zA-Z]+$/) // _
+  && str.slice(-1) != str.endsWith("_")) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
-CodelandUsernameValidation("aa_");
+CodelandUsernameValidation("u__hello_world123");
