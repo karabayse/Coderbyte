@@ -1,25 +1,18 @@
 /*
-Determine if the string parameter is a valid username according to the following
-rules:
-
-1. The username is between 4 and 25 characters.
-2. It must start with a letter.
-3. It can only contain letters, numbers, and the underscore character.
-4. It cannot end with an underscore character.
-
-If the username is valid then your program should return the string true,
-otherwise return the string false.
+Take the array of strings stored in strArr, which will contain pairs of integers
+in the following format: (i1,i2), where i1 represents a child node in a tree and
+the second integer i2 signifies that it is the parent of i1.
+For example: if strArr is ["(1,2)", "(2,4)", "(7,2)"], then this forms a proper
+binary tree.
+Your program should, in this case, return the string true because a valid binary
+tree can be formed.
+If a proper binary tree cannot be formed with the integer pairs,
+then return the string false.
+All of the integers within the tree will be unique, which means there can only
+be one node in the tree with the given integer value.
 */
-function CodelandUsernameValidation(str) {
-  if
-  (str.length >= 4 && str.length <= 25
-  && str.length === 1 && str.match(/[a-z]/i)
-  && str.value.match(/^[0-9a-zA-Z]+$/) // _
-  && str.slice(-1) != str.endsWith("_")) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
+function TreeConstructor(strArr) {
+
 }
 
-CodelandUsernameValidation("u__hello_world123");
+TreeContructor();
