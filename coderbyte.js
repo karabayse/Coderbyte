@@ -251,4 +251,4 @@ function TreeConstructor(strArr) {
 
 }
 
-TreeContructor();
+TreeContructor(["(1,2)", "(2,4)", "(7,2)"]);
