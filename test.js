@@ -12,7 +12,7 @@ All of the integers within the tree will be unique, which means there can only
 be one node in the tree with the given integer value.
 */
 function TreeConstructor(strArr) {
-
+  // check for proper binary tree 
 }
 
 TreeContructor(["(1,2)", "(2,4)", "(7,2)"]);
